@@ -182,5 +182,15 @@ e.preventDefault();
 });
 
 
+// ------------------------video--------------------
 
 
+let video = document.querySelectorAll("#vedo");
+setTimeout(() => {
+
+    video[0].autoplay = true;
+    video[0].load();
+    video[1].autoplay = true;
+    video[1].load();
+
+}, 9000)
